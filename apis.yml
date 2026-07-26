@@ -1,8 +1,32 @@
 aid: deben
 name: Deben
-description: Deben is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Deben is an AI-powered treasury and cash management platform for CFOs and
+  finance teams, positioned as a cloud-native alternative to spreadsheets and
+  legacy treasury management systems. The product covers cash management with
+  centralized bank connectivity and multi-currency support, liquidity planning
+  and forecasting, automated bank and payment reconciliation, payments,
+  banking and ERP connectivity, multi-entity consolidation, and debt
+  management, with an emphasis on real-time cash control and AI-driven
+  forecasting. Deben targets finance teams in Saudi Arabia and the wider
+  region, referencing Open Banking, and is backed by 500 Global. This profile
+  was added to the API Evangelist network as a portfolio-lead stub; Deben does
+  not currently publish a public API, developer portal, SDKs, or OpenAPI
+  surface, so this record captures company identity and probed domain security
+  only.
 url: https://raw.githubusercontent.com/api-evangelist/deben/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6769f37592cb2cb018202358/67a755635a6096e3093c588e_Deben_Logo_Horizontal_White%2BAccent.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Treasury Management
+- Cash Management
+- Financial Services
+- Fintech
+- Liquidity Planning
+- Reconciliation
+- Payments
+- Open Banking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/deben-domain-security.yml
 - type: Website
   url: https://deben.io
+- type: Blog
+  url: https://deben.io/blogs
+- type: About
+  url: https://deben.io/about-us
+- type: Support
+  url: https://deben.io/contact-us
+- type: Login
+  url: https://app.deben.io
+- type: Newsletter
+  url: https://deben.io/newsletter-subscribe
+- type: Partners
+  url: https://deben.io/partners
+- type: LinkedIn
+  url: https://www.linkedin.com/company/deben-tms/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
