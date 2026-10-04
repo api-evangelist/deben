@@ -51,7 +51,7 @@ tags:
 - Company
 - Treasury Management
 - Cash Management
-- Financial-Services
+- Financial Services
 - Fintech
 - Liquidity Planning
 - Reconciliation
@@ -67,6 +67,7 @@ tags_raw:
 - Reconciliation
 - Payments
 - Open Banking
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
